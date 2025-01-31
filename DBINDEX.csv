@@ -1,0 +1,10 @@
+I'll calculate clustering metrics, including the Davies-Bouldin Index (DB Index), based on the provided data. First, I'll inspect the structure of the files to determine how to proceed with clustering.
+
+The datasets contain the following information:
+
+Transactions.csv (1000 entries): Includes TransactionID, CustomerID, ProductID, TransactionDate, Quantity, TotalValue, and Price.
+Products.csv (100 entries): Includes ProductID, ProductName, Category, and Price.
+Customers.csv (200 entries): Includes CustomerID, CustomerName, Region, and SignupDate.
+I'll proceed by merging relevant datasets to prepare customer transaction data for clustering. Then, I'll apply clustering techniques (e.g., K-Means) and evaluate the Davies-Bouldin Index (DB Index). ​​
+
+The Davies-Bouldin Index (DB Index) for the customer transaction clustering is 1.09. A lower DB Index indicates better clustering quality, meaning clusters are more distinct and well-separated. If you'd like to optimize this further, we can experiment with different clustering methods or feature engineering. 
